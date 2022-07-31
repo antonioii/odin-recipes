@@ -1,0 +1,34 @@
+/*stylesheet*/
+
+/*Alinhando textos*/
+h1,
+figure,
+article {
+    text-align: center;
+   }
+
+/*Alinhando os links de menu, ver o rodape*/
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+
+body {
+    background-color: hsl(120, 55%, 70%)
+}
+
+/*-------------------------------------
+============RODAPE=====================
+Uma alternativa, que daria resultado diferente seria:
+
+    ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+Fazendo com que os bullets seguissem o texto dentro da linha.
+*/
