@@ -1,0 +1,32 @@
+.recipes-container {
+    background: 
+    linear-gradient(149deg, 
+    rgb(68, 150, 48) 0%, 
+    rgb(31, 14, 107) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carousel {
+    width: 100%;
+    border: 2px solid red;
+    max-width: 600px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.recipes {
+    display: flex;
+    position: relative;
+    /*Overflow-x to scroll means anything that doesn't fit in our viewport will be accessible only by scrolling*/
+    overflow-x: scroll;
+    /*set the browser to scroll it smothly*/
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
