@@ -244,6 +244,14 @@ button:hover  {
     color: white;
   }
 
+.odin-link {
+    font-style: italic;
+}
+
+.odin-link:link, .odin-link:visited {
+    color: blue;
+}
+
 
 /*=================================================================
 Setting everything with border-size border-box*/
