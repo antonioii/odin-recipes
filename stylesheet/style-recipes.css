@@ -15,6 +15,11 @@ li {
 
 h2,
 body {
+    background-color: rgb(229, 235, 178);
+}
+
+h2.pink,
+body.pink {
     background-color: rgb(250, 214, 212);
 }
 
