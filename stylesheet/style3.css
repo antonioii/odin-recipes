@@ -1,3 +1,32 @@
+/*Alinhando textos*/
+h1,
+figure,
+article {
+    text-align: center;
+   }
+
+body {
+    background-color: hsl(120, 55%, 70%)
+}
+
+/*header*/
+.header-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+}
+
+span.intro {
+    margin: 10px 0px;
+}
+
+
+
 /*===========================================================================================================================*/
 /*================================================Creating the slideshow with only CSS:======================================*/
 .recipes-container {
@@ -6,17 +35,16 @@
     rgb(68, 150, 48) 0%, 
     rgb(31, 14, 107) 100%);
 
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
     height: 100%;
 }
 
 .carousel { /*the viewport*/
-    width: 100%;
-    /*border: 2px solid red;*/
-    max-width: 600px;
-    height: 400px;
+    width: 100%;    
+    max-width: 37.5em;
+    height: 25em;
     margin: 20px;
     text-align: center;
     border-radius: 20px;
@@ -43,7 +71,7 @@
     align-items: center;
     flex-shrink: 0;
     width: 100%;
-    height: 400px; /*same size as viewport*/
+    height: 25em; /*same size as viewport*/
     margin-right: 0px;
     box-sizing: border-box;
     background: white;

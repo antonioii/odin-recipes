@@ -14,24 +14,42 @@
         <!--the viewport: -->
         <div class="carousel">
 
-            <!--all the recipes: -->
+            <!--container with all the recipes: -->
             <div class="recipes">
 
-                <!--each recipe indivualy with ID and class: -->
+                <!--each recipe indivualy with ID and classes: -->
 
-                <div id="recipe__1" class="recipe">
+                  <div id="recipe__1" class="recipe">
                     <span class="recipe__text">1</span>
+                    <a class="recipe__prev" href="#recipe__4" title="prev"></a>
+                    <a class="recipe__next" href="#recipe__2" title="next"></a>
                   </div>
+                  
                   <div id="recipe__2" class="recipe">
                     <span class="recipe__text">2</span>
+                    <a class="recipe__prev" href="#recipe__1" title="prev"></a>
+                    <a class="recipe__next" href="#recipe__3" title="next"></a>
                   </div>
+                  
                   <div id="recipe__3" class="recipe">
                     <span class="recipe__text">3</span>
+                    <a class="recipe__prev" href="#recipe__2" title="prev"></a>
+                    <a class="recipe__next" href="#recipe__4" title="next"></a>
                   </div>
+                  
                   <div id="recipe__4" class="recipe">
                     <span class="recipe__text">4</span>
-
+                    <a class="recipe__prev" href="#recipe__3" title="prev"></a>
+                    <a class="recipe__next" href="#recipe__1" title="next"></a>
+                  </div>
             </div>
+
+            <div class="menu__nav">
+              <a class="menu__navlink" href="#recipe__1"></a>
+              <a class="menu__navlink" href="#recipe__2"></a>
+              <a class="menu__navlink" href="#recipe__3"></a>
+              <a class="menu__navlink" href="#recipe__4"></a>
+          </div>
 
         </div>
 
