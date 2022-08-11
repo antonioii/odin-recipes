@@ -1,0 +1,113 @@
+/*Fonts:*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+p, li {
+    font-size: 16px;
+    font-family: 'DynaPuff', cursive;
+
+}
+
+
+/*basic colors and align:*/
+li {
+    padding-top: 16px;    
+}
+
+h2,
+body {
+    background-color: rgb(250, 214, 212);
+}
+
+h2 {
+    text-align: center;
+}
+
+.top,
+.middle,
+.bottom,
+.footer {
+    background:
+    linear-gradient(135deg, 
+    rgb(255, 241, 49) 0%, 
+    rgb(132, 224, 152) 100%);
+}
+
+.bottom,
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ol, ul {
+    width: 25%;
+}
+
+body {    
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+body div {
+    background-color: white;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    text-align: center;
+    
+    
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/*=================================================================
+Setting the footer and button configurations:*/
+
+.footer {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    padding: 8px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border: 2px solid yellow;
+  }
+
+button:hover  {
+    background-color: rgb(0,39,118);
+    border: 2px solid white;
+    color: white;
+  }
+
+
+/*=================================================================
+Setting everything with border-size border-box*/
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
